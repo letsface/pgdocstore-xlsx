@@ -1,0 +1,31 @@
+{
+  "name": "xlsx-import",
+  "version": "1.0.0",
+  "description": "import xlsx using an injected data lookup interface",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/letsface/xlsx-import"
+  },
+  "keywords": [
+    "xlsx",
+    "data-lookup"
+  ],
+  "author": "rogerz <rogerz@letsface.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/letsface/xlsx-import/issues"
+  },
+  "dependencies": {
+    "q": "^1.0.1",
+    "underscore": "^1.6.0",
+    "xlsx": "^0.7.7"
+  },
+  "devDependencies": {
+    "chai": "~1.8.1",
+    "mocha": "~1.17.0"
+  }
+}
