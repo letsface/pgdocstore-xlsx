@@ -1,6 +1,6 @@
 {
   "name": "xlsx-import",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "import xlsx using an injected data lookup interface",
   "main": "index.js",
   "scripts": {
