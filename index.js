@@ -227,6 +227,7 @@ function rowToMac(dataLookup, row) {
  * @return {promise}
  */
 function xlsxSingleWorksheetToObjects(binaryData, typeName, dataLookup) {
+  checkImplements(DataLookupInterface, dataLookup);
   var workbook = XLSX.read(binaryData, {type: 'binary'});
   var worksheets = worksheetsToJSON(workbook);
   return worksheetToObjects(typeName, worksheets[0], dataLookup)
@@ -236,6 +237,7 @@ function xlsxSingleWorksheetToObjects(binaryData, typeName, dataLookup) {
 }
 
 function xlsxWorksheetsToObjects(binaryData, dataLookup) {
+  checkImplements(DataLookupInterface, dataLookup);
   var workbook = XLSX.read(binaryData, {type: 'binary'});
   var worksheets = worksheetsToJSON(workbook);
 
