@@ -1,6 +1,6 @@
 {
   "name": "xlsx-import",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "import xlsx using an injected data lookup interface",
   "main": "index.js",
   "scripts": {
@@ -14,12 +14,13 @@
     "xlsx",
     "data-lookup"
   ],
-  "author": "rogerz <rogerz@letsface.com>",
-  "license": "BSD-3-Clause",
+  "author": "rngadam <rngadam@letsface.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/letsface/xlsx-import/issues"
   },
   "dependencies": {
+    "checkimplements": "0.0.1",
     "q": "^1.0.1",
     "underscore": "^1.6.0",
     "xlsx": "^0.7.7"
