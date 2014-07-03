@@ -4,7 +4,7 @@ var XLSX = require('xlsx');
 var Q = require('q');
 var _ = require('underscore');
 var DataLookupInterface = require('./data-lookup-interface');
-var checkImplements = require("checkImplements");
+var checkImplements = require("checkimplements");
 
 Q.longStackSupport = false;
 
