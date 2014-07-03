@@ -1,8 +1,8 @@
-# xlsx-import
+# pgdocstore-xlsx
 
-import xlsx using an injected data lookup interface
+xlsx interface for pgdocstore
 
-[![build status](https://secure.travis-ci.org/letsface/xlsx-import.png)](http://travis-ci.org/letsface/xlsx-import)
+[![build status](https://secure.travis-ci.org/letsface/xlsx-import.png)](http://travis-ci.org/letsface/pgdocstore-xlsx)
 
 ## Installation
 

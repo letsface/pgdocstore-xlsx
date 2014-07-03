@@ -1,11 +1,11 @@
 var expect = require('chai').expect,
-    xlsxImport = require('..');
+    xlsx = require('..');
 
-describe('xlsx-import', function() {
-  it('should export xlsxSingleWorksheetToObjects', function(done) {
-    expect(xlsxImport.xlsxSingleWorksheetToObjects).to.be.a('function');
-    expect(xlsxImport.xlsxWorksheetsToObjects).to.be.a('function');
-    expect(xlsxImport.DataLookupInterface).to.be.a('function');
+describe('xlsx', function() {
+  it('should export functions', function(done) {
+    expect(xlsx.xlsxSingleWorksheetToObjects).to.be.a('function');
+    expect(xlsx.xlsxWorksheetsToObjects).to.be.a('function');
+    expect(xlsx.DataLookupInterface).to.be.a('function');
     done();
   });
 });
